@@ -1,0 +1,141 @@
+.title{
+   display: flex;
+   flex-direction:row;
+   justify-content: space-between;
+}
+.title_text{
+  font-size: 30px;
+  font-weight: 600;
+  padding: 15rpx 0rpx 0rpx 30rpx;
+}
+.img{
+  margin-right: 15rpx;
+}
+.img image{
+  padding: 15rpx;
+  height: 70rpx;
+  width: 70rpx;
+}
+.title_img{
+  width: 92%;
+  height: 200rpx;
+  background-color:	#D59DFC;
+  border-radius: 10px;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.scroll_button{
+  white-space: nowrap;
+  border-bottom: 1px solid gainsboro;
+}
+.scroll_img{
+   height: 165rpx;
+   width: 195rpx;
+}
+.showlist
+{
+  height: 30rpx;
+  width: 200rpx;
+  border:1px solid #D59DFC;
+}
+.lists{
+  display: flex;
+  flex-direction: column;
+}
+.lowerlist{
+  padding: 30rpx 0rpx 3rpx 30rpx;
+  display: flex;
+  flex-direction: row;
+}
+.button_list{
+  color: gainsboro;
+  margin-left: 50rpx;
+  width: 480rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.lower_img{
+  width: 20rpx;
+  height: 20rpx;
+  margin-left: 10rpx;
+}
+.lists{
+  position:relative;
+  left: 30rpx;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: absolute;
+  z-index: 99;
+}
+.lists_item{
+  margin-bottom: 3rpx;
+  font-weight: 900;
+  font-size: larger;
+  border-bottom: 1rpx solid black;
+}
+.initial_class{
+  color: gainsboro;
+}
+.bg1
+{
+  color:#000000;
+  font-weight: 900;
+  font-size: larger;
+  
+}
+.bg2{
+  color: gainsboro;
+  font-size: medium;
+}
+.single_detail{
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 20rpx;
+  justify-content:space-between;
+  align-items: center;
+}
+.purple_title{
+  height: 120rpx;
+  width: 120rpx;
+  border-radius: 60rpx;
+  margin: 0rpx 0rpx 0rpx 15rpx;
+}
+.purple_detail{
+  position: relative;
+  left: -120rpx;
+  display: flex;
+  flex-direction: column;
+}
+.heart_detail{
+  right: 10rpx;
+}
+.heart_img{
+  height: 20rpx;
+  width: 20rpx;
+
+}
+.name_title{
+  font-size: 13px;
+  font-weight: 600;
+}
+.detail_title{
+  font-size: 12px;
+  color: gainsboro;
+}
+.purple_color{
+  background-color: plum;
+  font-size: 10px;
+  margin: 0rpx 10rpx 0rpx 10rpx;
+}
+.yellow_color
+{
+  background-color: yellow;
+  font-size: 10px;
+}
+.girl_img{
+ height: 20rpx;
+ width: 20rpx;
+}

@@ -1,0 +1,74 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  margin: 15rpx;
+  font-size: large;
+  font-weight: 600;
+  color: gainsboro;
+  justify-content: space-around;
+  width: 450rpx;
+  align-items: center;
+}
+.line{
+  border-bottom: 1rpx solid gainsboro;
+}
+.b1{
+  font-size: larger;
+  color: black;
+}
+.single_list{
+  display: flex;
+  flex-direction: row;
+  margin:30rpx 30rpx 30rpx 0rpx;
+  justify-content:space-between;
+}
+.purple_img{
+  height: 100rpx;
+  width: 100rpx;
+  margin-left: 20rpx;
+  border-radius: 50rpx;
+  opacity: 0.2;
+}
+.list_center{
+  justify-content: center;
+  position: relative;
+  left: -160rpx;
+  display: flex;
+  flex-direction: column;
+}
+.list_right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name_title{
+   font-size: 30rpx;
+}
+.chat_list{
+  font-size: 25rpx;
+  color:gainsboro;
+}
+.date{
+  font-size: 27rpx;
+  color: gainsboro;
+}
+.list_right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chat_num{
+  margin-top: 5rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50rpx;
+  height: 50rpx;
+  font-size: 26rpx;
+  color: white;
+  background-color: red;
+  border-radius:25rpx;
+}
+.b11{
+  border-left: 10rpx solid orange;
+}

@@ -1,0 +1,58 @@
+<view class="cont">
+	<view class="header">
+      <text catchtap="listtap" data-num="1" class="{{num==1?'b1':''}}">消息</text>
+      <text catchtap="listtap" data-num="2" class="{{num==2?'b1':''}}">好友</text>
+      <text catchtap="listtap" data-num="3" class="{{num==3?'b1':''}}">关注</text>
+      <text catchtap="listtap" data-num="4" class="{{num==4?'b1':''}}">粉丝</text>
+	</view>
+  <view class="line"></view>
+  <view class="lists">
+    <view catchtap="click_chat" data-current="11" class="single_list {{current==11?'b11':''}}">
+      <image class="purple_img" src="../image/purple.jpg"></image>
+      <view class="list_center">
+       <text class="name_title">官方小客服</text>
+       <text class="chat_list">断了的弦</text>
+      </view>
+      <view class="list_right">
+      <text class="date">周三</text>
+      <text class="chat_num">6</text>
+      </view>
+    </view>
+
+        <view catchtap="click_chat" data-current="22" class="single_list {{current==22?'b11':''}}">
+      <image class="purple_img" src="../image/purple.jpg"></image>
+      <view class="list_center">
+       <text class="name_title">官方小秘书</text>
+       <text class="chat_list">再怎么练</text>
+      </view>
+      <view class="list_right">
+      <text class="date">19:00</text>
+      <text class="chat_num">10</text>
+      </view>
+    </view>
+
+        <view catchtap="click_chat" data-current="33" class="single_list {{current==33?'b11':''}}">
+      <image class="purple_img" src="../image/purple.jpg"></image>
+      <view class="list_center">
+       <text class="name_title">系统消息</text>
+       <text class="chat_list">我的感觉</text>
+      </view>
+      <view class="list_right">
+      <text class="date">12-12</text>
+      <text class="chat_num">99+</text>
+      </view>
+    </view>
+
+      <view catchtap="click_chat" data-current="44" class="single_list {{current==44?'b11':''}}">
+      <image class="purple_img" src="../image/purple.jpg"></image>
+      <view class="list_center">
+       <text class="name_title">像少年啦飞驰</text>
+       <text class="chat_list">你已听不见</text>
+      </view>
+      <view class="list_right">
+      <text class="date">19:00</text>
+      <text class="chat_num">6</text>
+      </view>
+    </view>
+  </view>
+</view>

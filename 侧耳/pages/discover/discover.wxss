@@ -1,0 +1,111 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  margin:30rpx;
+  width: 300rpx;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.squre{
+   font-weight: 600;
+   color: gainsboro;
+}
+.discover{
+  font-weight: 600;
+  color: gainsboro;
+}
+.home{
+  font-weight: 600;
+  color: gainsboro;
+}
+.c1{
+  font-size: x-large;
+  color: black;
+}
+.line{
+  border-bottom: 1rpx solid gainsboro;
+  opacity: 0.5;
+}
+.lineline{
+  border-bottom: 2rpx solid gainsboro;
+  opacity: 0.5;
+}
+.toper{
+  display: flex;
+  flex-wrap: nowrap;
+  margin:30rpx;
+}
+.toper image{
+  margin:0rpx 6rpx 0rpx 6rpx;
+  width: 160rpx;
+  height: 160rpx;
+}
+.bigbag{
+  width: 90%;
+  height: 120rpx;
+  background-color: gainsboro;
+  border-radius: 20rpx;
+  margin:0rpx 5% 0rpx 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.gold{
+  margin-left: 20rpx;
+  font-weight: 500;
+}
+.golder{
+  margin-right: 30rpx;
+  color: palevioletred;
+  font-size: 25rpx;
+}
+.gongliaodating{
+  font-size: larger;
+  font-weight: 600;
+  margin:40rpx;
+}
+.single_list{
+  display: flex;
+  flex-wrap: nowrap;
+  margin:15rpx 0rpx 15rpx 0rpx;
+  
+}
+.chat_img{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+  opacity: 0.2;
+  margin-left: 30rpx;
+  margin-right: 10rpx;
+}
+.detail_img{
+  width: 25rpx;
+  height: 25rpx;
+}
+.detail_right{
+  display: flex;
+  flex-direction: column;
+}
+.detail_lv{
+  background-color: plum;
+  font-size: 25rpx;
+  border-radius: 5rpx;
+  margin:0rpx 10rpx 0rpx 10rpx;
+}
+.detail_lvlv{
+  background-color:yellow;
+  font-size: 25rpx;
+  border-radius: 5rpx;
+  margin:0rpx 10rpx 0rpx 0rpx;
+}
+.detail_text{
+  font-size: 30rpx;
+  color: gray;
+}
+.detail_chat{
+  font-size: 30rpx;
+  margin-top: 15rpx;
+}
+.left{
+  border-left:10rpx solid orange;
+}

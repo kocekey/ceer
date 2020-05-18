@@ -1,0 +1,76 @@
+<view class="cont">
+    <view class="header">
+    <text catchtap="click_head" data-id="1" class="squre {{id==1?'c1':''}}">广场</text>
+    <text catchtap="click_head" data-id="2" class="discover {{id==2?'c1':''}}">发现</text>
+    <text catchtap="click_head" data-id="3" class="home {{id==3?'c1':''}}">家族</text>
+    </view>
+            <view class="line"></view>
+        <view class="toper">
+        <image src="../image/paihangbang.png"></image>
+        <image src="../image/zhouxingbang.png"></image>
+        <image src="../image/renwu.png"></image>
+        <image src="../image/qiandao.png"></image>
+        </view>    
+    <view class="bigbag">
+        <text class="gold">收个徒弟赢金币</text>
+        <text class="golder">收徒大礼包></text>
+    </view> 
+    <view class="gongliaodating">
+    <text>公聊大厅></text>
+    </view>
+    <view class="lineline"></view>
+    
+    <view>
+       <view catchtap="click_list" data-left="1" class="single_list {{left==1?'left':''}}">
+       <image class="chat_img" src="../image/purple.jpg"></image>
+          <view class="detail_right"> 
+            <view class="detail_list">
+                <image class="detail_img" src="../image/girl.jpg"></image>
+                <text class="detail_lv">LV.10</text>
+                <text class="detail_lvlv">LV.10</text>
+                <text class="detail_text">像少年啦飞驰</text>
+            </view>
+        <text class="detail_chat">后视镜里的世界</text>
+        </view>     
+       </view>
+
+       <view catchtap="click_list" data-left="2" class="single_list {{left==2?'left':''}}">
+       <image class="chat_img" src="../image/purple.jpg"></image>
+          <view class="detail_right"> 
+            <view class="detail_list">
+                <image class="detail_img" src="../image/girl.jpg"></image>
+                <text class="detail_lv">LV.10</text>
+                <text class="detail_lvlv">LV.10</text>
+                <text class="detail_text">像少年啦飞驰</text>
+            </view>
+        <text class="detail_chat">后视镜里的世界</text>
+        </view>     
+       </view>
+
+       <view catchtap="click_list" data-left="3" class="single_list {{left==3?'left':''}}">
+       <image class="chat_img" src="../image/purple.jpg"></image>
+          <view class="detail_right"> 
+            <view class="detail_list">
+                <image class="detail_img" src="../image/girl.jpg"></image>
+                <text class="detail_lv">LV.10</text>
+                <text class="detail_lvlv">LV.10</text>
+                <text class="detail_text">像少年啦飞驰</text>
+            </view>
+        <text class="detail_chat">后视镜里的世界</text>
+        </view>     
+       </view>
+
+       <view catchtap="click_list" data-left="4" class="single_list {{left==4?'left':''}}">
+       <image class="chat_img" src="../image/purple.jpg"></image>
+          <view class="detail_right"> 
+            <view class="detail_list">
+                <image class="detail_img" src="../image/girl.jpg"></image>
+                <text class="detail_lv">LV.10</text>
+                <text class="detail_lvlv">LV.10</text>
+                <text class="detail_text">像少年啦飞驰</text>
+            </view>
+        <text class="detail_chat">后视镜里的世界</text>
+        </view>     
+       </view>
+    </view>
+</view>

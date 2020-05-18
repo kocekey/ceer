@@ -1,0 +1,122 @@
+<!--index.wxml-->
+<view class="con">
+  <view class="userinfo">
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+  </view>
+  <view class="bg">
+     <view class="zhuye">
+       <image class="zhuye_img" src="../image/homehome.jpg"></image>
+       <text class="zhuye_text">主页</text>
+     </view>
+     <view class="detail">
+             <text class="detail_name">像少年啦飞驰</text>
+             <view class="detail_center">
+             <text class="detail_liang">靓</text>
+             <image class="detail_boyimg" src="../image/boy.jpg"></image>
+             <image class="detail_girlimg" src="../image/girl.jpg"></image>
+             <text class="detail_lv">LV.10</text>
+             <text class="detail_lvlv">LV.10</text>
+             <text class="detail_xingzuo">双鱼座</text>
+             </view>
+             <view class="detail_bottom">
+            <text class="detail_id">ID</text>
+            <text class="detail_idnum">123456</text>
+            <image class="detail_dingwei" src="../image/dingwei.jpg"></image>
+            <text class="detail_idnum">广州</text>
+             </view>
+     </view> 
+     <view class="four">
+       <view class="four_column">
+       <text class="four_num">224</text>
+       <text class="four_text">关注</text>
+       </view>
+
+       <view class="four_column">
+       <text class="four_num">666</text>
+       <text class="four_text">粉丝</text>
+       </view>
+       
+       <view class="four_column">
+       <text class="four_num">LV.36</text>
+       <text class="four_text">用户等级</text>
+       </view>
+
+       <view class="four_column">
+       <text class="four_num">298</text>
+       <text class="four_text">魅力等级</text>
+       </view>
+     </view>
+     <view class="my_lists">
+       <view class="single_list">
+      <image class="left_img" src="../image/gift.png"></image>
+      <text class="list_text">我的礼物</text>
+      <image class="right_img" src="../image/rightraw.png"></image>
+       </view>
+
+       <view class="single_list">
+      <image class="left_img" src="../image/gold.png"></image>
+      <text class="list_text">金币/充值</text>
+      <image class="right_img" src="../image/rightraw.png"></image>
+       </view>
+
+       <view class="single_list">
+      <image class="left_img" src="../image/luobo.png"></image>
+      <text class="list_text">我的萝卜</text>
+      <image class="right_img" src="../image/rightraw.png"></image>
+       </view>
+
+       <view class="single_list">
+      <image class="left_img" src="../image/showshop.png"></image>
+      <text class="list_text">装扮商城</text>
+      <image class="right_img" src="../image/rightraw.png"></image>
+       </view>
+
+       <view class="single_list">
+      <image class="left_img" src="../image/power.png"></image>
+      <text class="list_text">贵族特权</text>
+      <text class="Surplus">剩余100天</text>
+      <image class="right_img" src="../image/rightraw.png"></image>
+       </view>
+         
+       <view class="first_line"></view>
+
+       <view class="single_list">
+      <image class="left_img" src="../image/good.png"></image>
+      <text class="list_text">我的推荐位</text>
+      <image class="right_img" src="../image/rightraw.png"></image>
+       </view>
+
+       <view class="single_list">
+      <image class="left_img" src="../image/myhome.png"></image>
+      <text class="list_text">我的家族</text>
+      <image class="right_img" src="../image/rightraw.png"></image>
+       </view>
+
+       <view class="single_list">
+      <image class="left_img" src="../image/myting.png"></image>
+      <text class="list_text">我的厅</text>
+      <image class="right_img" src="../image/rightraw.png"></image>
+       </view>
+     
+       <view class="second_line"></view>
+      
+       <view class="single_list">
+      <image class="left_img" src="../image/jineng.png"></image>
+      <text class="list_text">技能认证</text>
+      <image class="right_img" src="../image/rightraw.png"></image>
+       </view>
+
+       <view class="single_list">
+      <image class="left_img" src="../image/shiming.png"></image>
+      <text class="list_text">实名认证</text>
+      <image class="right_img" src="../image/rightraw.png"></image>
+       </view>
+
+       <view class="single_list">
+      <image class="left_img" src="../image/qingshaonian.png"></image>
+      <text class="list_text">青少年模式</text>
+      <image class="right_img" src="../image/rightraw.png"></image>
+       </view>
+     </view>     
+  </view> 
+</view>

@@ -1,0 +1,59 @@
+<!--index.wxml-->
+<view>
+	<view class="title">
+		<text class="title_text">侧耳</text>
+		<view class="img">
+			<image src="../image/gou.png"></image>
+			<image src="../image/search.png"></image>
+			<image src="../image/add.png"></image>
+		</view>
+	</view>
+	<view class="title_img">
+	</view>
+	<scroll-view scroll-x='true' class="scroll_button">
+		<image class="scroll_img" src="../image/xiaoshijie.png"></image>
+		<image class="scroll_img" src="../image/xindongpipei.png"></image>
+		<image class="scroll_img" src="../image/hailiaopaidui.png"></image>
+		<image class="scroll_img" src="../image/shengyingpipei.png"></image>
+		<image class="scroll_img" src="../image/ceyice.png"></image>
+	</scroll-view>
+
+	<view class="lowerlist">
+		<view catchtap="showhepai"  data-num="1"><text class="initial_class {{num==1 ? 'bg1' : 'bg2'}}">{{initial}}</text>
+			<image catchtap="showlists" class="lower_img" src="../image/roa.png"></image>
+		</view>
+		<view class="button_list">
+			<text data-num="2" catchtap="click_button" class="{{num==2 ? 'bg1' : 'bg2'}}">官方推荐</text>
+			<text data-num="3" catchtap="click_button" class="{{num==3 ? 'bg1' : 'bg2'}}">白色风车</text>
+			<text data-num="4" catchtap="click_button" class="{{num==4 ? 'bg1' : 'bg2'}}">夜曲</text>
+		</view>
+	</view>
+	<view hidden="{{show_lists}}" class='lists'>
+		<block wx:for="{{lists}}" wx:key="key"><text catchtap="click_list" data-item="{{item}}" class="lists_item">{{item}}</text> </block>
+	</view>
+	<view wx:if="{{num==2}}" class="detail_list">
+		<block wx:for="{{recommend}}" wx:for-item="item" wx:key="key">
+			<view class="single_detail">
+				<image class="purple_title" src="{{item.head}}"></image>
+				<view class="purple_detail">
+					<text class="name_title">{{item.name}}</text>
+					<view>
+						<image wx:if="{{item.sex==0}}" class="girl_img" src="/pages/image/girl.jpg"></image>
+						<image wx:else class="girl_img" src="/pages/image/boy.jpg"></image>
+						<text class="purple_color">LV.{{item.purpleL}}</text>
+						<text class="yellow_color">LV.{{item.yellowL}}</text>
+					</view>
+					<text class="detail_title">Ta正在语音聊天...</text>
+				</view>
+				<view class="heart_detail">
+					<image class="heart_img" src="/pages/image/heart.jpg"></image>
+					<text class="detail_title">去找Ta</text>
+					<text class="detail_title">></text>
+				</view>
+			</view>
+		</block>
+	</view>
+	<view wx:elif="{{num==1}}">合拍女神</view>
+	<view wx:elif="{{num==3}}">白色风车</view>
+	<view wx:else="{{num==4}}">夜曲</view>
+</view>
